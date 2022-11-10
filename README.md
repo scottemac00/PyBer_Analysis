@@ -5,9 +5,18 @@ The written analysis has the following:
 The purpose of the new analysis is to illuminate additional business data for decision makers at PyBer. Instead of simply showing some graphs or charts that may not provide the best context, this summary supports the new data analysis. Clearly, analyzing ride-sharing data for PyBer highlighted the profitability of rideshare in urban, suburban, and even rural cities. 
 
 ## Results:
-There is a description of the differences in ride-sharing data among the different city types. 
+The image below depicts the Summary DataFrame for the ride-share data, distilled with information by city type: total rides, total drives, the sum of fares, the average fare per ride, and the average fare per driver.
 
-Ride-sharing data include the total rides, total drivers, total fares, average fare per ride and driver, and total fare by city type.
+![](https://github.com/scottemac00/PyBer_Analysis/blob/580d013dfd9a17fd4fccfe7691ecd617cc6e399f/Analysis/Summary_DataFrame.png)
+
+Prior analysis demonstrated how ride data varies widely based on city type, with urban cities being where rides are most widely used and rural cities being where the least amount of rides occur. Similarly (and as expected), urban cities see the most drivers offering their services. From a macro economic perspective (e.g., supply and demand) the data validates that fares vary widely based on city type, but on average are relatively similar. The total drivers by city type shows us that the fewer the drivers, the greater the average fare per ride and fare per driver, though we expect this may also have to do with rural distances being greater (on average) than those in suburban or urban cities.
+
+Interestingly, For 1Q19 and and the begining of 2Q19, fares by city type fluctuated minimally, as depicted in the graph below:
+
+![](
+
+
+
 
 ## Summary:
-There is a statement summarizing three business recommendations to the CEO for addressing any disparities among the city types. 
+While this data tells us much about average weekly fare costs by city type, the analysis team recommends expanding the data for an annual review. This aggregation could assist decisionmakers identify what months are most active, thus requiring more demand for drivers. Modeling this data against other social, commercial, and political factors might illuminate areas and times of year where modest adjustments in fare price and driver incentives could increase revenue by a factor of x. Additionally, further distilling the data based on time of year, city type, and including such factors as weather or local events might also provide insight as to why average fare per ride remains similar, despite the wide disparity in total rides by city type.
